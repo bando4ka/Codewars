@@ -54,6 +54,9 @@ function persistence1(num1) {
 
 console.log(persistence1(54)); // 2
 
+
+
+//another solution
 function persistence2(num3, cnt=0) {
     let arrayNum = num3.toString().split('');
     return arrayNum.length === 1 ?
