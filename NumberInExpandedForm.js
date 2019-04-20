@@ -25,7 +25,7 @@ console.log(expandedForm(70304)); // Should return '70000 + 300 + 4'
 console.log(expandedForm(123)); // Should return '100 + 20 + 3'
 console.log(expandedForm(102)); // Should return '100 + 2'
 
-
+//another solution
 const expandedForm2 = n2 => n2.toString()
     .split("")
     .reverse()
